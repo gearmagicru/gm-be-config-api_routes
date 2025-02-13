@@ -1,0 +1,50 @@
+[
+    {
+        "xtype": "fieldcontainer",
+        "fieldLabel": "#Type",
+        "defaultType": "radiofield",
+        "layout": "hbox",
+        "style": "margin-bottom:10px",
+        "labelStyle": "padding-bottom:7px",
+        "items": [
+            {
+                "boxLabel": "#Module",
+                "name": "ownerType",
+                "inputValue": "module",
+                "checked": true,
+                "id" : "radio4",
+                "listeners": { "change": "onCheckTypeModule"}
+            }, {
+                "boxLabel": "#Module extension",
+                "name": "ownerType",
+                "inputValue": "extension",
+                "id": "radio5",
+                "style": "margin-left:10px",
+                "listeners": { "change": "onCheckTypeExtension"}
+            }
+        ]
+    },
+    "@moduleCombobox",
+    "@extensionCombobox",
+    {
+        "xtype": "textfield",
+        "fieldLabel": "#Route",
+        "maxLength": 255,
+        "anchor": "100%",
+        "name": "route",
+        "allowBlank": true
+    },
+    {
+        "xtype": "textfield",
+        "fieldLabel": "#Note",
+        "maxLength": 255,
+        "anchor": "100%",
+        "name": "note"
+    },
+    {
+        "xtype": "checkbox",
+        "ui": "switch",
+        "fieldLabel": "#Enabled",
+        "name": "enabled"
+    }
+]
