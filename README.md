@@ -14,7 +14,7 @@
 ![php 8.2+](https://img.shields.io/badge/php-min%208.2-red.svg)
 
 ## Скриншот
-<img src="https://github.com/gearmagicru/gm-be-config-api_routes/blob/master/assets/help/grid.pnggm-be-config-api_routesraw=true">
+<img src="https://github.com/gearmagicru/gm-be-config-api_routes/blob/master/assets/help/grid.png?raw=true">
 
 ## Установка
 
