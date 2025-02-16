@@ -1,15 +1,8 @@
 {
-    "name": "gearmagicru/gm-be-config-api_routes/",
+    "name": "gearmagicru/gm-be-config-api_routes",
     "description": "Control Panel extension (module) \"API Routing\"",
-    "keywords": [
-        "gm",
-        "gearmagic",
-        "GM Panel",
-        "extension",
-        "configuration",
-        "routing"
-    ],
-    "homepage": "https://apps.gearmagic.ru/component/gm-be-config-api_routes/",
+    "keywords": ["gearmagic", "gm-panel", "gm-component", "gm-extension", "extension", "configuration", "routing"],
+    "homepage": "https://apps.gearmagic.ru/component/gm-be-config-api_routes",
     "type": "component",
     "license": "MIT",
     "authors": [
